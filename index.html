@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+        <input type="number" id="temperature" placeholder="Digite a temperatura em °C ou °F">
+        <div class="buttons">
+            <button onclick="convertToCelsius()">Converter para Celsius</button>
+            <button onclick="convertToFahrenheit()">Converter para Fahrenheit</button>
+        </div>
+        <div id="result"></div>
+
+        <!-- Termômetro -->
+        <div class="thermometer-container">
+            <div class="thermometer">
+                <div class="thermometer-inner" id="thermometer-fill"></div>
+            </div>
+            <div class="temperature-label">0°C</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
