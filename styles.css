@@ -84,7 +84,7 @@ button:hover {
 .thermometer-inner {
     width: 100%;
     height: 0;
-    background-color: #385575;
+    background-color: black;
     position: absolute;
     bottom: 0;
     transition: height 0.5s ease;
